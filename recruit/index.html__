@@ -1,0 +1,1133 @@
+<!doctype html>
+<html lang="ja">
+
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>REVE</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="apple-touch-icon" href="apple-touch-icon.png">
+    <link rel="stylesheet" href="../css/normalize.min.css">
+    <link rel="stylesheet" href="../css/main.css">
+    <link rel="stylesheet" href="../css/modal.css">
+    <link rel="stylesheet" href="../css/modal_contents.css">
+    <!-- <link rel="stylesheet" href="../css/swipebox.css"> -->
+    <link rel="stylesheet" href="../css/magnific-popup.css">
+    <link href="https://fonts.googleapis.com/earlyaccess/notosansjapanese.css" rel="stylesheet" />
+    <script src="../js/jquery-1.11.2.min.js"></script>
+    <script src="../js/modal.js"></script>
+    <script src="../js/plugins.js"></script>
+    <script src="../js/main.js"></script>
+    <script src="../js/modal_contents.js"></script>
+    <!-- <script src="../js/jquery.swipebox.min.js"></script> -->
+    <script src="../js/jquery.magnific-popup.min.js"></script>
+    <script src="../js/jquery.inview.js"></script>
+    <script src="../js/jquery.color.js"></script>
+    <!--[if lt IE 9]>
+<script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
+<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+  </head>
+
+  <body>
+    <div class="rec-mainvidual">
+      <p id="menubtn" class="menu"><img src="../img/recruit/menu.png" alt="menu"></p>
+      <div class="rec-mainvidual-bg">
+        <nav class="rec-nav">
+          <h1 class="rec-logo"><a href="index.html"><img src="../img/logo.png" alt="株式会社REVE"></a></h1>
+          <p class="logo-rec"><img src="../img/recruit/logo-rec.png" alt="Recruit"></p>
+          <ul>
+            <div class="MDL_window_wrap2">
+              <div class="rec-sp-nav top">
+                <li><a href="#vision">ビジョン</a></li>
+                <li><a href="#philosophy">企業理念</a></li>
+                <li><a href="#environment">職場環境</a></li>
+                <li><a href="#interview">社員紹介</a></li>
+              </div>
+              <p class="sp" id="close"><img src="../img/icon/close.png" alt="閉じる"></p>
+            </div>
+          </ul>
+        </nav>
+        <img src="../img/recruit/mainvidual.png" alt="メインイメージ画像" class="rec-mainvidualimg pc">
+        <img src="../img/recruit/mainvidual_sp.png" alt="メインイメージ画像" class="sp">
+        <div class="rec-main-text">
+          <p><span class="first">全ての明日のために</span></p>
+          <p><span class="sec">安心を届けます！</span></p>
+        </div>
+      </div>
+    </div>
+    <section id="vision">
+      <h2 class="rec-title one"><span><img src="../img/recruit/title-vision.png" alt="VISION"></span></h2>
+      <div class="vision-content">
+        <div class="vision-content-left">
+          <img src="../img/recruit/vision-img.png">
+        </div>
+        <div class="vision-content-right">
+          <h2>お客様に明日への安心を届ける事<br>
+            そして一緒に働く仲間が夢や希望を持てる事</h2>
+          <p>ＲＥＶＥは保険代理店として<br class="pc"> コールセンターを運営している会社です。
+            <br> 保険という100年以上前から続く
+            <br class="pc"> 誰もが知っている形の無い商品を販売するお仕事です。
+            <br> 形の無いものだからこそ、よりお客様の立場に立って
+            <br class="pc"> 最善のご提案する事、決して自分本位の営業をしない事が
+            <br class="pc"> 必要と考えております。
+            <br> そして、弊社で働く全ての従業員が
+            <br class="pc"> お客様に選んで頂ける、保険のように
+            <br class="pc"> 長く必要と言ってもらえる、そういう会社を目指しています。
+          </p>
+        </div>
+      </div>
+    </section>
+    <section id="philosophy">
+      <h2 class="rec-title two"><span><img src="../img/recruit/title-philosophy.png" alt="PHILOSOPHY"></span></h2>
+      <div class="philosophy-content">
+        <ul>
+          <li class="first">
+            <h2>お客様にとって本当に<br>必要とされる会社でありたい</h2>
+            <p>レイヴは会社の利益を優先するのではなく、 全てのお客様にとって最善のご提案を心がけ、 お客様がいつでも安心して相談できるような 本当に必要と思える会社になる事を目指して活動していきます。
+            </p>
+          </li>
+          <li class="sec">
+            <h2>関係先の企業様に<br>感謝される会社でありたい</h2>
+            <p>
+              レイヴは関係先の企業様にとってより信頼頂き感謝して頂けるような会社になれるように活動していきます。
+            </p>
+          </li>
+          <li class="thi">
+            <h2>仲間（従業員）が夢や<br>希望の持てる会社でありたい</h2>
+            <p>レイヴに関わる事で仕事の大切さや厳しさ、働く事の意味を教えていけるような会社にしたい。 そして、全社員が夢や希望を持てる、そんな会社になれるように活動していきます。
+            </p>
+          </li>
+        </ul>
+      </div>
+    </section>
+    <section id="environment">
+      <h2 class="rec-title three"><span><img src="../img/recruit/title-environment.png" alt="ENVIRONMENT"></span></h2>
+      <div class="environment-content">
+        <div class="environment-content-left">
+          <img src="../img/recruit/environment-img.png" alt="職場環境イメージ画像">
+        </div>
+        <div class="environment-content-right">
+          <h2>「本気で長く働ける会社」<br>を目指した職場環境</h2>
+          <p>経営理念の1つは、<br class="pc"> 「従業員が本気で長く働きたいと思える会社」です。
+            <br> そのため、会社の利益に貢献した従業員を
+            <br class="pc"> 様々な形で表彰する評価制度を設けていたり、
+            <br class="pc"> 従業員やその家族をサポートする制度を多く設けており、
+            <br class="pc"> 安心して業務に打ち込める環境を整えています。
+          </p>
+        </div>
+      </div>
+      <p class="rec-readmore-btn plus"><a data-target="modal-environment" class="modal-open">詳しく見る</a></p>
+    </section>
+    <section id="interview">
+      <h2 class="rec-title four"><span><img src="../img/recruit/title-interview.png" alt="INTERVIEW"></span></h2>
+      <div class="interview-contents">
+        <div class="interview-content-wrap">
+          <div class="interview-content-over show">
+            <div class="interview-content-one">
+              <a href="#interview1" class="popup-modal">
+                <div class="interview-content-one-inner">
+                  <div class="interview-content-one-img">
+                    <img src="../img/recruit/interview/interview_14.png" alt="乾　進">
+                  </div>
+                  <div class="interview-content-one-text">
+                    <h2>株式会社REVE INNOVATION　代表取締役</h2>
+                    <h3>乾　進</h3>
+                    <p>成績がすぐ形となって現れるので個々の価値を見出せる会社です。</p>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </div>
+          <div class="interview-content-over show">
+            <div class="interview-content-one">
+              <a href="#interview2" class="popup-modal">
+                <div class="interview-content-one-inner">
+                  <div class="interview-content-one-img">
+                    <img src="../img/recruit/interview/interview_15.png" alt="後藤　強">
+                  </div>
+                  <div class="interview-content-one-text">
+                    <h2>株式会社REVE　町田支店長</h2>
+                    <h3>後藤　強</h3>
+                    <p>自由な社風で、やる気次第で短期間で結果を出すことも可能だと思います。</p>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </div>
+          <div class="interview-content-over show">
+            <div class="interview-content-one">
+              <a href="#interview3" class="popup-modal">
+                <div class="interview-content-one-inner">
+                  <div class="interview-content-one-img">
+                    <img src="../img/recruit/interview/interview_16.png" alt="奥山　昂">
+                  </div>
+                  <div class="interview-content-one-text">
+                    <h2>株式会社REVE　営業部１課MGR</h2>
+                    <h3>奥山　昂</h3>
+                    <p>努力次第で報酬に変えられる会社</p>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </div>
+          <div class="interview-content-over show">
+            <div class="interview-content-one">
+              <a href="#interview4" class="popup-modal">
+                <div class="interview-content-one-inner">
+                  <div class="interview-content-one-img">
+                    <img src="../img/recruit/interview/interview_17.png" alt="赤羽 太一">
+                  </div>
+                  <div class="interview-content-one-text">
+                    <h2>株式会社REVE<br>コンサルタント課MG</h2>
+                    <h3>赤羽 太一</h3>
+                    <p>決断力がある会社だと思います。</p>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </div>
+          <div class="interview-content-over show">
+            <div class="interview-content-one">
+              <a href="#interview5" class="popup-modal">
+                <div class="interview-content-one-inner">
+                  <div class="interview-content-one-img">
+                    <img src="../img/recruit/interview/interview_18.png" alt="和田　充史">
+                  </div>
+                  <div class="interview-content-one-text">
+                    <h2>株式会社REVE　管理部MG</h2>
+                    <h3>和田　充史</h3>
+                    <p>常に成長できる環境がある会社です！</p>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </div>
+          <div class="interview-content-over show">
+            <div class="interview-content-one">
+              <a href="#interview6" class="popup-modal">
+                <div class="interview-content-one-inner">
+                  <div class="interview-content-one-img">
+                    <img src="../img/recruit/interview/interview_19.png" alt="中村　琴美">
+                  </div>
+                  <div class="interview-content-one-text">
+                    <h2>株式会社REVE　営業部２課</h2>
+                    <h3>中村　琴美</h3>
+                    <p>さまざまな意見を取り入れ、みんなで作り上げていく日々進化する会社です。</p>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </div>
+          <!-- <div class="hide-contents">
+          <div class="interview-content-over hide">
+          <div class="interview-content-one">
+            <a href="#interview7" class="popup-modal">
+              <div class="interview-content-one-inner">
+                <div class="interview-content-one-img">
+                  <img src="../img/recruit/interview/interview_7.png" alt="伊武　悠吏">
+                </div>
+                <div class="interview-content-one-text">
+                  <h2>営業部3課</h2>
+                  <h3>伊武　悠吏</h3>
+                  <p>人情に厚く何にでも全力に取り組む会社なので、やればやるだけ結果に繋がる素敵な会社だと思います。</p>
+                </div>
+              </div>
+            </a>
+          </div>
+          </div>
+          <div class="interview-content-over hide">
+          <div class="interview-content-one">
+            <a href="#interview8" class="popup-modal">
+              <div class="interview-content-one-inner">
+                <div class="interview-content-one-img">
+                  <img src="../img/recruit/interview/interview_8.png" alt="塩田　誠">
+                </div>
+                <div class="interview-content-one-text">
+                  <h2>営業部3課</h2>
+                  <h3>塩田　誠</h3>
+                  <p>こだわりが強い方が多いのですが、共通点が明るく元気でとても楽しい会社です！</p>
+                </div>
+              </div>
+            </a>
+          </div>
+          </div>
+          <div class="interview-content-over hide">
+          <div class="interview-content-one">
+            <a href="#interview9" class="popup-modal">
+              <div class="interview-content-one-inner">
+                <div class="interview-content-one-img">
+                  <img src="../img/recruit/interview/interview_9.png" alt="塩田　弘子">
+                </div>
+                <div class="interview-content-one-text">
+                  <h2>営業部3課</h2>
+                  <h3>塩田　弘子</h3>
+                  <p>社長も社員もとっても明るく、仕事が楽しいと思わせてくれる会社です。</p>
+                </div>
+              </div>
+            </a>
+          </div>
+          </div>
+          <div class="interview-content-over hide">
+          <div class="interview-content-one">
+            <a href="#interview10" class="popup-modal">
+              <div class="interview-content-one-inner">
+                <div class="interview-content-one-img">
+                  <img src="../img/recruit/interview/interview_10.png" alt="川村　周">
+                </div>
+                <div class="interview-content-one-text">
+                  <h2>コンサルタント課</h2>
+                  <h3>川村　周</h3>
+                  <p>しっかりと先輩や上司がついていて、チームや個別での相談、研修も取り入れているので、安心して働くことができます。</p>
+                </div>
+              </div>
+            </a>
+          </div>
+          </div>
+          <div class="interview-content-over hide">
+          <div class="interview-content-one">
+            <a href="#interview11" class="popup-modal">
+              <div class="interview-content-one-inner">
+                <div class="interview-content-one-img">
+                  <img src="../img/recruit/interview/interview_11.png" alt="八幡　勝利">
+                </div>
+                <div class="interview-content-one-text">
+                  <h2>コンサルタント課</h2>
+                  <h3>八幡　勝利</h3>
+                  <p>殆どの人が未経験者なので、新しいことに挑戦したい人はオススメです！</p>
+                </div>
+              </div>
+            </a>
+          </div>
+          </div>
+          <div class="interview-content-over hide">
+          <div class="interview-content-one">
+            <a href="#interview12" class="popup-modal">
+              <div class="interview-content-one-inner">
+                <div class="interview-content-one-img">
+                  <img src="../img/recruit/interview/interview_12.png" alt="川勝　友愛">
+                </div>
+                <div class="interview-content-one-text">
+                  <h2>管理部</h2>
+                  <h3>川勝　友愛</h3>
+                  <p>アットホームな会社でそれぞれの課のチームワークがすごいと思います！</p>
+                </div>
+              </div>
+            </a>
+          </div>
+          </div>
+          <div class="interview-content-over hide">
+          <div class="interview-content-one">
+            <a href="#interview13" class="popup-modal">
+              <div class="interview-content-one-inner">
+                <div class="interview-content-one-img">
+                  <img src="../img/recruit/interview/interview_13.png" alt="松井　哲夫">
+                </div>
+                <div class="interview-content-one-text">
+                  <h2>営業部1課</h2>
+                  <h3>松井　哲夫</h3>
+                  <p>みんなとの連携や達成した時の喜びなど、仕事以上の幸せを頂ける。</p>
+                </div>
+              </div>
+            </a>
+          </div>
+          </div>
+        </div> -->
+        </div>
+        <!-- <p class="rec-readmore-btn show-btn"><a>さらに見る</a></p> -->
+      </div>
+    </section>
+    <section id="message">
+      <div class="message-contents">
+        <h2 class="message-title"><span>成長へのプロセスは<br class="sp">｢自分自身｣で決まる</span></h2>
+        <div class="message-content-left">
+          <img src="../img/recruit/message-img.png" alt="赤西礼保">
+        </div>
+        <div class="message-content-right">
+          <div class="message-content-right-text">
+            <p>やりがいがある仕事</p>
+            <p>メリハリのある職場</p>
+            <p>成果を認めてもらえる会社</p>
+          </div>
+          <p>
+            そんな思いを持った方一緒に成長しませんか！<br> REVEでは会社の成長はスタッフとともにあると考え、
+            <br class="pc"> 会社での常識にとらわれるのではなく、仕事が楽しいと
+            <br class="pc"> 思える環境、頑張った成果を評価できる体制、仕事のオンとオフを
+            <br class="pc"> 大切にしているそんな会社でいたいと考え、少しずつ成長しています！
+            <br> 少しでも共感し力になってもらえるのなら、
+            <br class="pc"> あなたの力をぜひレイヴで発揮してください。
+            <br> 共に成長しながら一緒に仕事できる日を楽しみにしています。
+          </p>
+        </div>
+      </div>
+    </section>
+
+
+    <footer class="footer subpage rec">
+      <div class="footer-entry-btns">
+        <div>
+          <p><a data-target="entry1" class="modal-open">2020年 新卒採用 募集要項へ</a></p>
+          <p><a data-target="entry2" class="modal-open">中途採用 募集要項へ</a></p>
+        </div>
+      </div>
+      <img src="../img/footer-logo.png" alt="ロゴ" class="footer-logo">
+      <p class="copyright">REVE CO., LTD. All Rights Reserved</p>
+    </footer>
+
+
+
+    <!--MODAL-->
+    <div id="modal-environment" class="modal-content">
+      <div class="modal-environment-wrap">
+        <div class="modal-environment-left">
+          <ul>
+            <li>
+              <a href="#modal-environment1">表彰制度</a>
+              <ul>
+                <li>半期社長賞</li>
+                <li>新人賞</li>
+                <li>長期勤続貢献制度</li>
+              </ul>
+            </li>
+            <li>
+              <a href="#modal-environment2">教育体制</a>
+              <ul>
+                <li>新入社員研修</li>
+                <li>コンプライアンス研修</li>
+                <li>新任管理職研修</li>
+                <li>オープンカレッジ</li>
+                <li>訪問販売研修</li>
+              </ul>
+            </li>
+            <li>
+              <a href="#modal-environment3">福利厚生</a>
+              <ul>
+                <li>年次有給休暇</li>
+                <li>慶弔・特別休暇</li>
+                <li>資格取得支援</li>
+                <li>住宅補助</li>
+                <li>長期障害所得補償</li>
+              </ul>
+            </li>
+            <li>
+              <a href="#modal-environment4">結婚・出産・育児支援</a>
+              <ul>
+                <li>新婚旅行休暇</li>
+                <li>産前産後・育児休暇</li>
+                <li>出産休暇</li>
+                <li>短時間勤務制度</li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+        <div class="modal-environment-right">
+          <h2 class="modal-environment-title"><span>「本気で長く働ける会社」を<br class="sp">目指した職場環境</span></h2>
+          <div class="modal-environment-contents">
+            <div class="modal-environment-contents-content" id="modal-environment1">
+              <div class="modal-environment-contents-left">
+                <img src="../img/recruit/environment/enviroment1.jpg" alt="表彰制度イメージ画像">
+              </div>
+              <div class="modal-environment-contents-right">
+                <h3>表彰制度</h3>
+                <p>短期的～長期的に会社に貢献した従業員を様々な項目を用いて評価し、表彰するとともに報奨金や記念品を支給しています。</p>
+              </div>
+            </div>
+            <ul>
+              <li>
+                <h4>半期社長賞</h4>
+                <p>半期（6ヶ月間）で優秀な営業成績を収めた従業員を表彰しています。<br>
+                  年に一度開催している「優績者表彰式」では、従業員はもちろん保険会社や取引先の方々もお招きし、一流ホテルで盛大にお祝いします。</p>
+              </li>
+              <li>
+                <h4>新人賞</h4>
+                <p>
+                  入社後、特定の期間内に優秀な成績を収めた新入社員を表彰しています。
+                </p>
+              </li>
+              <li>
+                <h4>長期勤続貢献制度</h4>
+                <p>
+                  入社から営業成績によってポイントが蓄積され、規定の基準を超えた従業員を表彰しています。<br>
+                  近年、従業員の要望によって基準点が大幅に増え、獲得者が増加しています。
+                </p>
+              </li>
+            </ul>
+            <div class="modal-environment-contents-content" id="modal-environment2">
+              <div class="modal-environment-contents-left">
+                <img src="../img/recruit/environment/enviroment2.jpg" alt="教育制度イメージ画像">
+              </div>
+              <div class="modal-environment-contents-right">
+                <h3>教育制度</h3>
+                <p>保険という商品は、お客様の人生に大きく関わり、その特性から「難しい」と思われがちです。<br>
+                  お客様のニーズをくみ取り、適切な募集活動をおこなうために、入社後はもちろん、ベテラン従業員になってからも継続して保険商品や保険業法等、最新の知識を習得することで「お客様に選ばれる代理店」であり続けます。
+                </p>
+              </div>
+            </div>
+            <ul>
+              <li>
+                <h4>新入社員研修</h4>
+                <p>REVEでは入社後すぐにご活躍いただくため、生命保険・損害保険の募集人資格取得のための対策研修を事前に実施し、早期合格を目指します。<br>
+                  入社後も社会人としての考え方、ビジネスマナーについて、そして保険に関する基本・募集の知識までを学習します。<br>
+                  その後、現場でOJT研修をおこない、スムーズに業務を開始できるようしっかりとサポートします。</p>
+              </li>
+              <li>
+                <h4>コンプライアンス研修</h4>
+                <p>
+                  定期的に、コンプライアンス研修を実施しています。<br>
+                   全従業員が、コンプライアンス遵守の意識を高く持ち、保険募集活動を行っています。
+                </p>
+              </li>
+              <li>
+                <h4>新任管理職研修</h4>
+                <p>
+                  新人管理職従業員に対して、労務・制度・コンプライアンス・会社ルールやビジネスマナーなど教育する場を設けています。
+                </p>
+              </li>
+              <li>
+                <h4>オープンカレッジ</h4>
+                <p>
+                  従業員のスキルアップを目的として、誰でも自由に参加ができる研修です。<br>
+                  FP（ファイナンシャルプランニング）検定試験対策など、業務に関することもあれば、外部講師を招いて講演していただくこともあります。
+                </p>
+              </li>
+              <li>
+                <h4>訪問販売研修</h4>
+                <p>
+                  訪問販売従業員を対象とした研修を実施しています。<br>
+                  学やロールプレイングと、営業現場での同行研修を実施し、試験合格後に初めて訪問販売可能と認定されます。
+                </p>
+              </li>
+            </ul>
+            <div class="modal-environment-contents-content" id="modal-environment3">
+              <div class="modal-environment-contents-left">
+                <img src="../img/recruit/environment/enviroment3.jpg" alt="福利厚生イメージ画像">
+              </div>
+              <div class="modal-environment-contents-right">
+                <h3>福利厚生</h3>
+                <p>皆さんに安心して就業いただけるよう、様々な福利厚生を整えています。<br>
+                  従業員の年齢層やニーズに合わせた内容にするために、従業員の声を聞き、定期的に制度を見直しています。</p>
+              </div>
+            </div>
+            <ul>
+              <li>
+                <h4>年次有給休暇</h4>
+                <p>
+                  入社半年後以降、勤続年数に応じて、10～21日間の年次有給休暇を付与しています。<br>
+                   また、全ての従業員が積極的に有給休暇を利用できるよう、利用推進制度も導入しています。
+                </p>
+              </li>
+              <li>
+                <h4>慶弔・特別休暇</h4>
+                <p>
+                  新婚旅行、配偶者の出産、忌引き、異動、子の予防接種、その他特別事由など、有給休暇とは別に取得できる休暇制度です。
+                </p>
+              </li>
+              <li>
+                <h4>住宅補助</h4>
+                <p>
+                  世帯主の従業員に対して、規定の住宅手当を支給します。
+                </p>
+              </li>
+              <li>
+                <h4>長期障害所得補償</h4>
+                <p>
+                  病気や怪我で長期間就業できなくなった場合の給与を補償するため、長期障害所得補償保険に加入しています。<br>
+                  万一、大きな病気や事故にあって長期入院・療養を余儀なくされても、安心して治療に専念していただけます。（最大5年間）
+                </p>
+              </li>
+            </ul>
+            <div class="modal-environment-contents-content" id="modal-environment4">
+              <div class="modal-environment-contents-left">
+                <img src="../img/recruit/environment/enviroment4.jpg" alt="結婚・出産・育児支援イメージ画像">
+              </div>
+              <div class="modal-environment-contents-right">
+                <h3>結婚・出産・育児支援</h3>
+                <p>女性従業員の皆さんに安心して働いていただけるよう、様々なサポート体制を整えています。</p>
+              </div>
+            </div>
+            <ul>
+              <li>
+                <h4>新婚旅行休暇</h4>
+                <p>
+                  新婚旅行に行く従業員に、年次有給休暇とは別で特別休暇を付与します。
+                </p>
+              </li>
+              <li>
+                <h4>産前産後・育児休暇</h4>
+                <p>
+                  出産予定日6週間前から、子が1歳になるまで取得可能です。<br>
+                  （特定の条件下では、2歳になるまで育児休業を継続することができます）
+                </p>
+              </li>
+              <li>
+                <h4>出産休暇</h4>
+                <p>
+                  奥様が出産される男性社員に、年次有給休暇とは別で特別休暇を付与します。
+                </p>
+              </li>
+              <li>
+                <h4>短時間勤務制度</h4>
+                <p>
+                  子が小学校始期に達するまで、30分単位、1日最高2時間の短縮が可能（短縮時間分は無給）<br>
+                   ※ 所定労働時間が6時間以上<br>
+                   ※ 会社業務の都合上、変更を求めることがあります
+
+                </p>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <p><a class="modal-close"><img src="../img/recruit/close.png" alt="閉じる"></a></p>
+      </div>
+    </div>
+    <!-- -->
+
+    <!--MODAL-->
+    <div id="interview1" class="white-popup-block mfp-hide">
+      <div class="textarea">
+        <div class="modal-interview">
+          <div class="modal-interview-img">
+            <img src="../img/recruit/interview/modal-interview_14.png" alt="乾　進">
+          </div>
+          <div class="modal-interview-text">
+            <dl>
+              <dt>すきな言葉</dt>
+              <dd>「winwin」</dd>
+              <dt>どんな会社ですか？</dt>
+              <dd>お客様と対面形式で各商材をご案内するので、直接お客様より感謝のお言葉を貰えるチャンスが多く、成績がすぐ形となって現れるので個々の価値を見出せる会社です。</dd>
+              <dt>これからやってみたいこと</dt>
+              <dd>クライアント様から求められるセールスプローモーション、人材の育成、独立支援</dd>
+              <dt>これからの展望を教えてください</dt>
+              <dd>部門別でプロジェクト発想、企画、進行を遂行できるメンバーを増やして、働く意義を全員で見出し作り上げていく「あの会社に任せれば上手くいく」というブランド作りができたらと思っております。</dd>
+              <dt>休日の過ごし方やリフレッシュ方法を教えてください。</dt>
+              <dd>家族を連れて色々なところに行きます。</dd>
+            </dl>
+          </div>
+        </div>
+        <p><a class="modal-close"><img src="../img/recruit/close.png" alt="閉じる"></a></p>
+      </div>
+    </div>
+    <!-- -->
+    <!--MODAL-->
+    <div id="interview2" class="white-popup-block mfp-hide">
+      <div class="textarea">
+        <div class="modal-interview">
+          <div class="modal-interview-img">
+            <img src="../img/recruit/interview/modal-interview_15.png" alt="後藤　強">
+          </div>
+          <div class="modal-interview-text">
+            <dl>
+              <dt>すきな言葉</dt>
+              <dd>「一度出来たことは、何度でも出来る。<br>人生の成功は、小さな成功の積み重ねだ。」</dd>
+              <dt>どんな会社ですか？</dt>
+              <dd>自由な社風で、やる気次第で短期間で結果を出すことも可能だと思います。</dd>
+              <dt>責任者としてのやりがいは？</dt>
+              <dd>自分だけではなく仲間・組織とともに成長を実感できるところです。</dd>
+              <dt>これからの展望を教えてください</dt>
+              <dd>これから入社する皆様を直接指導する立場になるかと思いますので、やはり、これから入社する皆様の育成ですね！<br>ともに成長しましょう！</dd>
+              <dt>休日の過ごし方やリフレッシュ方法を教えてください。</dt>
+              <dd>呑みに行ったり、音楽を聴いたり、ライブイベントに足を運んだりしています。</dd>
+            </dl>
+          </div>
+        </div>
+        <p><a class="modal-close"><img src="../img/recruit/close.png" alt="閉じる"></a></p>
+      </div>
+    </div>
+    <!-- -->
+    <!--MODAL-->
+    <div id="interview3" class="white-popup-block mfp-hide">
+      <div class="textarea">
+        <div class="modal-interview">
+          <div class="modal-interview-img">
+            <img src="../img/recruit/interview/modal-interview_16.png" alt="奥山　昴">
+          </div>
+          <div class="modal-interview-text">
+            <dl>
+              <dt>すきな言葉</dt>
+              <dd>「Life is like a box of chocolates.<br>You never know what you're gonna get until you open it up. 」
+              </dd>
+              <dt>どんな会社ですか？</dt>
+              <dd>努力次第で報酬に変えられる会社</dd>
+              <dt>今の業務内容を教えてください</dt>
+              <dd>保険商品のご紹介からプランニング、契約締結までの一連の業務を行っております</dd>
+              <dt>責任者としてのやりがいは？</dt>
+              <dd>目標の達成</dd>
+              <dt>これからの展望を教えてください</dt>
+              <dd>よりお客様とクライアントに必要とされる会社</dd>
+              <dt>休日の過ごし方やリフレッシュ方法を教えてください。</dt>
+              <dd>朝からビール</dd>
+            </dl>
+          </div>
+        </div>
+        <p><a class="modal-close"><img src="../img/recruit/close.png" alt="閉じる"></a></p>
+      </div>
+    </div>
+    <!-- -->
+    <!--MODAL-->
+    <div id="interview4" class="white-popup-block mfp-hide">
+      <div class="textarea">
+        <div class="modal-interview">
+          <div class="modal-interview-img">
+            <img src="../img/recruit/interview/modal-interview_17.png" alt="赤羽 太一">
+          </div>
+          <div class="modal-interview-text">
+            <dl>
+              <dt>すきな言葉</dt>
+              <dd>一期一会です。仕事上色々なお客様とお会いする機会がありますが、全ての出会いを大切にし、成長していきたいです。</dd>
+              <dt>どんな会社ですか？</dt>
+              <dd>決断力がある会社だと思います。<br>
+                ものすごく大きい組織だと一つのことを決定するためにたくさんの段階を踏む必要がありますが、弊社の場合そこの部分が上手く簡略化されていて、物事の決定スピードがかなり早いです。<br>
+                このことは社長が普段からよく口にしている言葉「スピード感を大切にしていこう」というのが会社全体に浸透しているからです。<br>
+                先んずれば人を制すという言葉のように弊社だから出来るスピード感を持って仕事をしていきたいです。
+              </dd>
+              <dt>これから会社でやってみたいことはなんですか？</dt>
+              <dd>今以上に働きやすい職場にしていきたいです。<br>
+                しっかりと会社のために働くことは当然ですが、仕事をさせられるのではなく、自発的に仕事をしたくなるような環境にしていきたいです。<br>
+                昔とは社会全体が変わりそれに伴い会社が変わるのも自然な流れです。<br>
+                皆様が出来るだけストレスなく会社に貢献できるようにします。
+              </dd>
+              <dt>責任者としてのやりがいは？</dt>
+              <dd>まだそこまで実感は湧きませんがもちろんやりがいはあります。<br>
+                子供と大人の見える景色が違うように立場が変わると見える景色も変わりますし考え方も変わります。昔の気持ちを忘れてしまうと上からの意見を押し付けてしまうことになり、士気の低下やストレスに繋がるので会社に入社した時の気持ちを常に忘れずに接していきたいです。
+              </dd>
+              <dt>これからの展望を教えてください。</dt>
+              <dd>会社を大きくしていきたいです。<br>
+                具体的にと聞かれるとここでお答えするのは難しいですが、縁あって入社した会社で今まで本当に良くしてもらっているのでこの御恩を返すことが会社を大きくしたいに繋がってます。
+              </dd>
+              <dt>休日の過ごし方やリフレッシュ方法を教えてください。</dt>
+              <dd>色んな地方に旅行に行くことですかね。<br>
+                職務上、色んな場所に行かせていただいております。<br>
+                何気なく走っている道に目をやると小さな発見があったりします。<br>
+                絶対観光のガイドブックには載っていないであろう小さな神社仏閣や滝、飲食店、山々などです。<br>
+                そういった場所をメモしておき、後日、時間のある休日に巡るのがリフレッシュ方法です。
+
+
+              </dd>
+            </dl>
+          </div>
+        </div>
+        <p><a class="modal-close"><img src="../img/recruit/close.png" alt="閉じる"></a></p>
+      </div>
+    </div>
+    <!-- -->
+    <!--MODAL-->
+    <div id="interview5" class="white-popup-block mfp-hide">
+      <div class="textarea">
+        <div class="modal-interview">
+          <div class="modal-interview-img">
+            <img src="../img/recruit/interview/modal-interview_18.png" alt="和田　充史">
+          </div>
+          <div class="modal-interview-text">
+            <dl>
+              <dt>すきな言葉</dt>
+              <dd>「挑戦」</dd>
+              <dt>どんな会社ですか？</dt>
+              <dd>常に成長できる環境がある会社です！</dd>
+              <dt>今の業務内容を教えてください</dt>
+              <dd>
+                お客様からお申込みをいただいてからが私たちの仕事です。保険のご継続をいただいているお客様へさまざまなフォローを行っております。例えば、保険金の給付をフォローして差し上げたり、保険証券を無くされてしまった方へ再発行のフォローをして差し上げたりと、お客様にとっては無くてはならない部門になります。
+              </dd>
+              <dt>今後の目標を教えてください。</dt>
+              <dd>一人の働きで回りに好影響が与えられるようになりたいです。</dd>
+              <dt>休日の過ごし方やリフレッシュ方法を教えてください。</dt>
+              <dd>温泉巡りが趣味なので、各地の温泉へ行くのがリフレッシュ方法です。</dd>
+            </dl>
+          </div>
+        </div>
+        <p><a class="modal-close"><img src="../img/recruit/close.png" alt="閉じる"></a></p>
+      </div>
+    </div>
+    <!-- -->
+    <!--MODAL-->
+    <div id="interview6" class="white-popup-block mfp-hide">
+      <div class="textarea">
+        <div class="modal-interview">
+          <div class="modal-interview-img">
+            <img src="../img/recruit/interview/modal-interview_19.png" alt="中村　琴美">
+          </div>
+          <div class="modal-interview-text">
+            <dl>
+              <dt>すきな言葉</dt>
+              <dd>「為せば成る」</dd>
+              <dt>どんな会社ですか？</dt>
+              <dd>昔からある形にとらわれずにさまざまな意見を取り入れ、みんなで作り上げていく日々進化する会社です。</dd>
+              <dt>これからやってみたいこと</dt>
+              <dd>ずっと営業部なのでこれからは違う形でお客様と関わる新たなスタイルを提案しステップアップしていきたいと思います。</dd>
+              <dt>これからの展望を教えてください</dt>
+              <dd>今後色んなベクトルからの営業スタイルもできるよう知識を広くする為に日々勉強あるのみです。</dd>
+              <dt>休日の過ごし方やリフレッシュ方法を教えてください。</dt>
+              <dd>色んなジャンルの本を読み広いジャンルに対応できる引き出しを作ることです。</dd>
+            </dl>
+          </div>
+        </div>
+        <p><a class="modal-close"><img src="../img/recruit/close.png" alt="閉じる"></a></p>
+      </div>
+    </div>
+    <!-- -->
+    <!--MODAL-->
+    <div id="interview7" class="white-popup-block mfp-hide">
+      <div class="textarea">
+        <div class="modal-interview">
+          <div class="modal-interview-img">
+            <img src="../img/recruit/interview/modal-interview_7.png" alt="伊武　悠吏">
+          </div>
+          <div class="modal-interview-text">
+            <dl>
+              <dt>入社動機</dt>
+              <dd>前職が夜勤で激務だった為、求人広告を見て応募してみました。</dd>
+              <dt>今まで会社で楽しかったこと</dt>
+              <dd>お客様にお褒めの言葉を頂いたり、一緒に悩んだり喜んでくれる上司や先輩がいてくれるので、窮屈にならず毎日楽しく仕事が出来ます。</dd>
+              <dt>社風</dt>
+              <dd>個性の強い人達ばかりですが、人情に厚く何にでも全力に取り組む会社なので、やればやるだけ結果に繋がる素敵な会社だと思います。</dd>
+            </dl>
+          </div>
+        </div>
+        <p><a class="modal-close"><img src="../img/recruit/close.png" alt="閉じる"></a></p>
+      </div>
+    </div>
+    <!-- -->
+    <!--MODAL-->
+    <div id="interview8" class="white-popup-block mfp-hide">
+      <div class="textarea">
+        <div class="modal-interview">
+          <div class="modal-interview-img">
+            <img src="../img/recruit/interview/modal-interview_8.png" alt="塩田　誠">
+          </div>
+          <div class="modal-interview-text">
+            <dl>
+              <dt>入社動機</dt>
+              <dd>ＲＥＶＥに勤務している方から、紹介を受けたので、心機一転がんばろうと思い入社しました。</dd>
+              <dt>今まで会社で楽しかったこと</dt>
+              <dd>お客様からのありがとうの言葉</dd>
+              <dt>社風</dt>
+              <dd>こだわりが強い方が多いのですが、共通点が明るく元気でとても楽しい会社です！</dd>
+            </dl>
+          </div>
+        </div>
+        <p><a class="modal-close"><img src="../img/recruit/close.png" alt="閉じる"></a></p>
+      </div>
+    </div>
+    <!-- -->
+    <!--MODAL-->
+    <div id="interview9" class="white-popup-block mfp-hide">
+      <div class="textarea">
+        <div class="modal-interview">
+          <div class="modal-interview-img">
+            <img src="../img/recruit/interview/modal-interview_9.png" alt="塩田　弘子">
+          </div>
+          <div class="modal-interview-text">
+            <dl>
+              <dt>入社動機</dt>
+              <dd>須藤社長の皆楽しく夢を持って働ける会社を創ろうというビジョンに共感を持ち、一緒に働きたいと思いました。</dd>
+              <dt>今まで会社で楽しかったこと</dt>
+              <dd>一緒に働くみんなの成長がとてもうれしく、自分も仕事が楽しいです。また、お客様の感謝の言葉や、お手紙を頂くことでこの仕事をしていることが楽しみです</dd>
+              <dt>社風</dt>
+              <dd>社長も社員もとっても明るく、仕事が楽しいと思わせてくれる会社です。</dd>
+            </dl>
+          </div>
+        </div>
+        <p><a class="modal-close"><img src="../img/recruit/close.png" alt="閉じる"></a></p>
+      </div>
+    </div>
+    <!-- -->
+    <!--MODAL-->
+    <div id="interview10" class="white-popup-block mfp-hide">
+      <div class="textarea">
+        <div class="modal-interview">
+          <div class="modal-interview-img">
+            <img src="../img/recruit/interview/modal-interview_10.png" alt="川村　周">
+          </div>
+          <div class="modal-interview-text">
+            <dl>
+              <dt>入社動機</dt>
+              <dd>私は将来的に起業を考えています。経営者が身近に居る環境の中で働きながら経営学も学ぶことができると思ったのが一番の動機です。
+                面接時に弊社の代表と話をする機会を頂きました。そのビジョンの高さに憧れ、期待と共感を抱きました。 会社の代表を尊敬できるというのも、とても魅力的でした。
+              </dd>
+              <dt>今まで会社で楽しかったこと</dt>
+              <dd>
+                会社のイベント等もちろん楽しいのですが、目標を達成しての食事会は格別です。毎日を過ごす中には厳しい状況に立たされることもあると思います。だからこそ目標を達成した時の喜びは計り知れないものがあります。社長をはじめ社員・パートを含めるすべての「仲間」と共有できる瞬間こそが最高に楽しいと思えることです。
+              </dd>
+              <dt>社風</dt>
+              <dd>お客様目線での保険のご提案やニーズの把握を大切にしています。お客様一人ひとりに安心をお届けできるよう日々奮闘しています。入社年数に関わらず、成果次第でどんどん認められます。
+                しっかりと先輩や上司がついていて、チームや個別での相談、研修も取り入れているので、安心して働くことができます。
+                緊張感を保ちつつも、とても馴染み易い職場であることと、会社全体で成長していこうとする雰囲気を作り出していることが弊社の魅力ではないでしょうか。
+              </dd>
+            </dl>
+          </div>
+        </div>
+        <p><a class="modal-close"><img src="../img/recruit/close.png" alt="閉じる"></a></p>
+      </div>
+    </div>
+    <!-- -->
+    <!--MODAL-->
+    <div id="interview11" class="white-popup-block mfp-hide">
+      <div class="textarea">
+        <div class="modal-interview">
+          <div class="modal-interview-img">
+            <img src="../img/recruit/interview/modal-interview_11.png" alt="八幡　勝利">
+          </div>
+          <div class="modal-interview-text">
+            <dl>
+              <dt>入社動機</dt>
+              <dd>多くの方と接する仕事に魅力を感じ、保険を通じてお客様の生活に関わりを持ちたいと感じたのがきっかけです。</dd>
+              <dt>今まで会社で楽しかったこと</dt>
+              <dd>お客様に「あなたが来てくれて良かったです」と言って頂いたこと。 今まではシステム関係の仕事に勤めていたので、そこでは味わえない ありがとうの声が直接聞けるような体験が出来たところ。
+              </dd>
+              <dt>社風</dt>
+              <dd>会社の雰囲気。全員が家族みたいな関係で、仕事以外のことも相談しやすいです。殆どの人が未経験者なので、新しいことに挑戦したい人はオススメです！</dd>
+            </dl>
+          </div>
+        </div>
+        <p><a class="modal-close"><img src="../img/recruit/close.png" alt="閉じる"></a></p>
+      </div>
+    </div>
+    <!-- -->
+    <!--MODAL-->
+    <div id="interview12" class="white-popup-block mfp-hide">
+      <div class="textarea">
+        <div class="modal-interview">
+          <div class="modal-interview-img">
+            <img src="../img/recruit/interview/modal-interview_12.png" alt="川勝　友愛">
+          </div>
+          <div class="modal-interview-text">
+            <dl>
+              <dt>入社動機</dt>
+              <dd>友人に事務として紹介され、以前の会社でも事務として勤めていたので自分にぴったりの話だなと思い、詳しく聞いてみるとすごい魅力を感じたので入社しました☆ </dd>
+              <dt>今まで会社で楽しかったこと</dt>
+              <dd>会社全体の飲み会や貸切クルージングパーティ＼(^o^)／ とても仲の良い会社なので毎回みんなで全力で楽しんでます♪♪笑
+              </dd>
+              <dt>社風</dt>
+              <dd>アットホームな会社でそれぞれの課のチームワークがすごいと思います！毎月協力しあいながら目標達成に向けて仕事しています！！</dd>
+            </dl>
+          </div>
+        </div>
+        <p><a class="modal-close"><img src="../img/recruit/close.png" alt="閉じる"></a></p>
+      </div>
+    </div>
+    <!-- -->
+    <!--MODAL-->
+    <div id="interview13" class="white-popup-block mfp-hide">
+      <div class="textarea">
+        <div class="modal-interview">
+          <div class="modal-interview-img">
+            <img src="../img/recruit/interview/modal-interview_13.png" alt="松井　哲夫">
+          </div>
+          <div class="modal-interview-text">
+            <dl>
+              <dt>入社動機</dt>
+              <dd>前職は保険の代理店と生命保険会社に勤務しており、職場の雰囲気、アットホームで働きやすい環境と業績に対する評価も平等で、メリハリのある会社と思いました。一番響いたのは、社長の人柄です。</dd>
+              <dt>今まで会社で楽しかったこと</dt>
+              <dd>Ｒ-１グランプリ1位を取って、平日にもかかわらずクルーズ貸切パーティで1日遊びつくしたチームの決起会と言う名の飲み会！ バーベキュー・忘年会などの季節的な行事
+              </dd>
+              <dt>社風</dt>
+              <dd>みんなとの連携や達成した時の喜びなど、仕事以上の幸せを頂ける。業績の評価は差別なく平等にアットホームですが、叱咤激励もあり、メリハリのある会社です。</dd>
+            </dl>
+          </div>
+        </div>
+        <p><a class="modal-close"><img src="../img/recruit/close.png" alt="閉じる"></a></p>
+      </div>
+    </div>
+    <!-- -->
+    <!--MODAL-->
+    <div id="entry1" class="modal-content">
+      <div class="textarea">
+        <div class="company-info-wrap">
+          <table>
+            <tr>
+              <th>応募資格</th>
+              <td>2020年3月卒業見込みの方<br> 学部学科不問/大学院・大学・専門学校・高等専門学校・短期大学
+              </td>
+            </tr>
+            <tr>
+              <th>募集人数</th>
+              <td>2020年度募集人数：10名</td>
+            </tr>
+            <tr>
+              <th>募集職種</th>
+              <td>総合職(内勤営業)、総合職(外勤営業)※出張を伴う</td>
+            </tr>
+            <tr>
+              <th>業務内容</th>
+              <td>お客様のライフプランに合わせた保険商品のコンサルティング業務(内勤・外勤)</td>
+            </tr>
+            <tr>
+              <th>勤務地</th>
+              <td>東京、九州</td>
+            </tr>
+            <tr>
+              <th>勤務時間</th>
+              <td>内勤<br> 9:00〜18:00(内、実労働時間:7.5時間)<br>
+                <br> 外勤
+                <br> 9:00〜20:30(内、実労働時間:4〜8時間)
+                <br> ※シフト制
+              </td>
+            </tr>
+            <tr>
+              <th>初任給</th>
+              <td>
+                総合職（内勤）　月給23～25万円+インセンティブ<br><br>総合職（外勤）月給21～25万+インセンティブ
+                <br> ※月20時間のみなし残業を含みます。
+                <br> ※試用期間6ヶ月間
+                <br> ※勤務地により給与が異なります。
+              </td>
+            </tr>
+            <tr>
+              <th>昇給・賞与</th>
+              <td>
+                昇給：年4回の査定による(4月・7月・10月・1月)<br> 賞与：年1回の査定による(4月)
+              </td>
+            </tr>
+            <tr>
+              <th>勤務形態・休日</th>
+              <td>
+                総合職（内勤営業）<br> 基本土日（月9～12日休み）
+                <br> ※シフトにより土曜日出勤あり
+                <br> 年間休日数：115日以上
+                <br> 有給休暇、特別休暇（育児・介護・産休等）<br>
+                <br> 総合職（外勤営業）
+                <br> シフト制（月9～12日休み）
+                <br> 年間休日数：115日以上
+                <br> 有給休暇、特別休暇（育児・介護・産休等）
+              </td>
+            </tr>
+            <tr>
+              <th>通勤交通費</th>
+              <td>
+                支給（上限2万円、入社2年目以降は上限2万5千円）
+              </td>
+            </tr>
+            <tr>
+              <th>福利厚生</th>
+              <td>
+                各種保険（雇用・労災・健康保険・厚生年金）、<br> 住宅手当、資格手当、出張手当、単身赴任手当、赴任手当、
+                <br> 産前産後休暇、育児休業、紹介入社報奨金
+              </td>
+            </tr>
+            <tr>
+              <th>教育制度</th>
+              <td>
+                社内研修、社外研修、配属後研修、階層別研修
+              </td>
+            </tr>
+          </table>
+          <p class="rec-readmore-btn">
+            <a href="entry">エントリーする</a>
+          </p>
+        </div>
+        <p><a class="modal-close"><img src="../img/recruit/close.png" alt="閉じる"></a></p>
+      </div>
+    </div>
+    <!-- -->
+
+    <!--MODAL-->
+    <div id="entry2" class="modal-content">
+      <div class="textarea">
+        <div class="company-info-wrap">
+          <table>
+            <tr>
+              <th>募集対象</th>
+              <td>
+                保険営業経験者大歓迎<br> 未経験者・第二新卒・フリーター・アルバイター・リベンジ就活生
+                <br> お子様がいらっしゃるママさんなど
+              </td>
+            </tr>
+            <tr>
+              <th>募集職種</th>
+              <td>総合職（内勤営業）、フレックス職（内勤営業）、総合職（外勤営業）※出張を伴う</td>
+            </tr>
+            <tr>
+              <th>業務内容</th>
+              <td>
+                総合職（内勤営業）<br> 電話によるお客様のライフプランに合わせた保険商品のコンサルティング業務<br>
+                <br> 総合職（外勤営業）
+                <br> 訪問によるお客様のライフプランに合わせた保険商品のコンサルティング業務
+                <br> お客様のライフプランに合わせた保険商品のコンサルティング業務(内勤・外勤)
+              </td>
+            </tr>
+            <tr>
+              <th>勤務地</th>
+              <td>東京、九州</td>
+            </tr>
+            <tr>
+              <th>勤務時間</th>
+              <td>
+                総合職（内勤営業） 9：00～18：00（内、実労働時間：7.5時間）
+                <br> 10：00～19：00（内、実労働時間：7.5時間）<br>
+                <br> フレックス職（内勤営業）、
+                <br> 9：00～19：00（内、実労働時間：2～7.5時間）
+                <br> ※月120時間勤務の中でご自身にて出勤を決められます<br>
+                <br> 総合職（外勤）
+                <br> 9：00～20：30（内、実労働時間：4～8時間）
+                <br> ※シフト制
+              </td>
+            </tr>
+            <tr>
+              <th>給与</th>
+              <td>
+                総合職（内勤営業）月給23～40万円+インセンティブ<br> ※経験により考慮させていただきます。
+                <br> ※月20時間のみなし残業を含みます。<br>
+                <br> フレックス職（内勤営業）　月給15万+インセンティブ<br>
+                <br> 総合職（外勤営業）月給21～30万+出張手当
+                <br> ※経験により考慮させていただきます。
+                <br> ※月20時間のみなし残業を含みます。
+                <br> ※試用期間6ヶ月間
+                <br> ※勤務地により給与が異なります
+              </td>
+            </tr>
+            <tr>
+              <th>昇給・賞与</th>
+              <td>
+                昇給：年4回の査定による(4月・7月・10月・1月)<br> 賞与：年1回の査定による(4月)
+              </td>
+            </tr>
+            <tr>
+              <th>勤務形態・休日</th>
+              <td>
+                総合職（内勤営業）<br> 基本土日（月9～12日休み）
+                <br> ※シフトにより土曜日出勤あり
+                <br> 年間休日数：115日以上
+                <br> 有給休暇、特別休暇（育児・介護・産休等）<br>
+                <br> フレックス職（内勤営業）
+                <br> 土日祝日（月10～15日休み）
+                <br> 月勤務120時間必須
+                <br> 年間休日数：130日以上
+                <br> 有給休暇、特別休暇（育児・介護・産休等）<br>
+                <br> 総合職（外勤営業）
+                <br> シフト制（月9～12日休み）
+                <br> 年間休日数：115日以上
+                <br> 有給休暇、特別休暇（育児・介護・産休等）
+              </td>
+            </tr>
+            <tr>
+              <th>通勤交通費</th>
+              <td>
+                支給（上限2万円、入社2年目以降は上限2万5千円）
+              </td>
+            </tr>
+            <tr>
+              <th>福利厚生</th>
+              <td>
+                各種保険（雇用・労災・健康保険・厚生年金）、<br> 住宅手当、資格手当、出張手当、単身赴任手当、赴任手当、
+                <br> 産前産後休暇、育児休業、紹介入社報奨金
+              </td>
+            </tr>
+            <tr>
+              <th>教育制度</th>
+              <td>
+                社内研修、社外研修、配属後研修、階層別研修
+              </td>
+            </tr>
+          </table>
+          <p class="rec-readmore-btn">
+            <a href="entry2">エントリーする</a>
+          </p>
+        </div>
+        <p><a class="modal-close"><img src="../img/recruit/close.png" alt="閉じる"></a></p>
+      </div>
+    </div>
+    <!-- -->
+
+  </body>
+
+</html>

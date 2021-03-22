@@ -1,0 +1,15 @@
+<IfModule mod_rewrite.c>
+  RewriteEngine on
+
+  # -- httpÅ®https
+  RewriteCond %{HTTPS} off
+  RewriteRule ^(.*)$ https://www.reve-co.jp/$1 [R=301,L]
+
+  # -- wwwÇ†ÇË
+  RewriteCond %{HTTP_HOST} !^www\.
+  RewriteRule ^(.*) https://www.reve-co.jp/$1 [R=301,L]
+
+  # ébíËëŒâû
+  RewriteRule ^company/history.html / [NE,R=301,L]
+
+</IfModule>

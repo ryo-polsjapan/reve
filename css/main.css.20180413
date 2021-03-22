@@ -1,0 +1,1220 @@
+/*! HTML5 Boilerplate v5.0 | MIT License | http://h5bp.com/ */
+
+html {
+  font-family: "Noto Sans Japanese", sans-serif;
+  font-size: 1em;
+  line-height: 1.4;
+  letter-spacing: 1px;
+}
+
+::-moz-selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+::selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+h1,h2,h3,p{
+  margin: 0;
+  padding: 0;
+}
+
+a{
+  color: #000;
+  text-decoration: none;
+}
+a:hover{
+  opacity: 0.7;
+}
+audio,
+canvas,
+iframe,
+img,
+svg,
+video {
+    vertical-align: middle;
+}
+
+ul{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+img{
+  max-width: 100%;
+}
+
+fieldset {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+textarea {
+    resize: vertical;
+}
+
+.browserupgrade {
+    margin: 0.2em 0;
+    background: #ccc;
+    color: #000;
+    padding: 0.2em 0;
+}
+
+/* ==========================================================================
+   Helper classes
+   ========================================================================== */
+
+.hidden {
+    display: none !important;
+    visibility: hidden;
+}
+
+.visuallyhidden {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+}
+
+.visuallyhidden.focusable:active,
+.visuallyhidden.focusable:focus {
+    clip: auto;
+    height: auto;
+    margin: 0;
+    overflow: visible;
+    position: static;
+    width: auto;
+}
+
+.invisible {
+    visibility: hidden;
+}
+
+.clearfix:before,
+.clearfix:after {
+    content: " ";
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+.clearfix {
+    *zoom: 1;
+}
+
+/* ==========================================================================
+   Print styles
+   ========================================================================== */
+
+@media print {
+    *,
+    *:before,
+    *:after {
+        background: transparent !important;
+        color: #000 !important;
+        box-shadow: none !important;
+        text-shadow: none !important;
+    }
+
+    a,
+    a:visited {
+        text-decoration: underline;
+    }
+
+    a[href]:after {
+        content: " (" attr(href) ")";
+    }
+
+    abbr[title]:after {
+        content: " (" attr(title) ")";
+    }
+
+    a[href^="#"]:after,
+    a[href^="javascript:"]:after {
+        content: "";
+    }
+
+    pre,
+    blockquote {
+        border: 1px solid #999;
+        page-break-inside: avoid;
+    }
+
+    thead {
+        display: table-header-group;
+    }
+
+    tr,
+    img {
+        page-break-inside: avoid;
+    }
+
+    img {
+        max-width: 100% !important;
+    }
+
+    p,
+    h2,
+    h3 {
+        orphans: 3;
+        widows: 3;
+    }
+
+    h2,
+    h3 {
+        page-break-after: avoid;
+    }
+}
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+ /* メイン */
+.mainvidual{
+  max-width: 936px;
+  margin: auto;
+  /* padding-top: 50px; */
+}
+.mainvidual-img1{
+  max-width: 698px;
+  position: relative;
+  margin-left: auto;
+  padding-top: 300px;
+  padding-left: 235px;
+}
+.logo{
+  width: 200px;
+  position: absolute;
+  top: 110px;
+  left: 100px;
+}
+.mainvidual-img1 .akanishi{
+  position: absolute;
+  bottom: 80px;
+  padding: 0 100px;
+}
+.mainvidual-img2{
+  position: absolute;
+  top: 275px;
+  left: 0;
+  padding-top: 60px;
+}
+.mainvidual-subtext{
+  position: absolute;
+  left: 0;
+  top: 0;
+  font-size: 15px;
+  font-weight: bold;
+  font-style: italic;
+}
+.mainvidual-subtext::before{
+  content: "";
+  width: 88px;
+  height: 1px;
+  margin-bottom: 5px;
+  margin-right: 10px;
+  background: #000;
+  display: inline-block;
+}
+.reservbtn,
+.top-text{
+  margin-left: 80px;
+}
+.reservbtn{
+  margin-top: 40px;
+}
+.reservbtn span{
+  color: #F9ED32;
+}
+.reservbtn a{
+  letter-spacing: 1.3px;
+  background: #DA1C5C url(../img/icon/earphone.png) 30px 50%/33px no-repeat;
+  color: #fff;
+  padding: 15px 30px 15px 80px;
+  font-weight: bold;
+  border-radius: 10px;
+  box-shadow: 0 6px #B21B55;
+  margin-bottom: 6px;
+  display: inline-block;
+  font-size: 18px;
+}
+ /* メイン */
+
+ /* ナビゲーション */
+ .nav{
+   background: #008DD0;
+   clear: both;
+   text-align: center;
+   margin-top: -20px;
+   position: relative;
+   z-index: 2;
+ }
+ .nav ul{
+   /* display: inline-block; */
+ }
+ .nav li{
+   display: inline-block;
+   border-right: 1px solid rgba(255, 255, 255, 0.5);
+   margin: 10px 0;
+ }
+ .nav li:last-child{
+   border-right: none;
+ }
+ .nav li a{
+   color: #fff;
+   font-size: 15px;
+   display: block;
+   padding: 20px 40px 5px 40px;
+   position: relative;
+   font-weight: bold;
+ }
+ .nav li a::before{
+   content: "";
+   width: 28px;
+   height: 28px;
+   padding: 10px;
+   border-radius: 50%;
+   position: absolute;
+   top: -35px;
+   right: 0;
+   left: 0;
+   margin: auto;
+   display: block;
+ }
+ .nav li a.company::before{
+   background: #008DD0 url(../img/icon/company.png) 50% 50%/28px no-repeat;
+ }
+ .nav li a.service::before{
+   background: #008DD0 url(../img/icon/service.png) 50% 50%/22px no-repeat;
+ }
+ .nav li a.insurance::before{
+   background: #008DD0 url(../img/icon/insurance.png) 50% 50%/29px no-repeat;
+ }
+ .nav li a.recruit::before{
+   background: #008DD0 url(../img/icon/heart.png) 50% 50%/28px no-repeat;
+ }
+ .nav li a.voice::before{
+   background: #008DD0 url(../img/icon/microphone.png) 50% 50%/17px no-repeat;
+ }
+ @media only screen and (max-width:736px){
+   .menu{
+     width: 35px;
+     float: right;
+     padding: 20px;
+     position: relative;
+     z-index: 3;
+   }
+   .logo{
+     padding: 10px 20px;
+     width: 120px;
+     left: 0;
+     top: 0;
+   }
+   .nav{
+     margin-top: 0;
+   }
+   .mainvidual-img1{
+     width: 100%;
+     padding: 250px 20px 0 20px;
+     box-sizing: border-box;
+   }
+   .mainvidual-img1 .akanishi{
+     top: 0;
+     left: 0;
+     right: 0;
+     margin: 30px auto 0;
+     width: 80%;
+     padding: 0;
+   }
+   .mainvidual-img2{
+     top: 225px;
+     padding-top: 40px;
+     /* padding: 30px 20px 0 20px;
+     box-sizing: border-box; */
+   }
+   .mainvidual-subtext::before{
+     width: 20px;
+   }
+   .reservbtn,
+   .top-text{
+     margin-left: 0;
+     padding: 0 20px;
+     box-sizing: border-box;
+   }
+   .reservbtn a{
+     background: #DA1C5C url(../img/icon/earphone.png) 30px 50%/28px no-repeat;
+     width: 100%;
+     box-sizing: border-box;
+     font-size: 16px;
+   }
+   .nav li{
+     display: inherit;
+     width: 100%;
+     text-align: left;
+     margin-left: 10px;
+   }
+   .nav li a{
+     background: #008DD0;
+     padding: 8px 40px 8px 45px;
+     margin: 20px 0;
+   }
+   .nav li a::before{
+     left: -10px;
+     top: -6px;
+     right: inherit;
+   }
+ }
+ /* ナビゲーション */
+
+ /* 共通コンテンツ */
+.common-content{
+  max-width: 698px;
+  clear: both;
+  overflow: hidden;
+  text-align: center;
+  margin: 40px auto 15px auto;
+}
+.common-content li{
+  float: left;
+  width: 336px;
+  position: relative;
+  margin-bottom: 25px;
+}
+.common-content li:nth-child(2n){
+  margin-left: 25px;
+}
+.img-overlay-text{
+  position: absolute;
+  bottom: 0;
+  background: rgba(0, 141, 208, 0.8) url(../img/icon/arrow-right.png) 95% 50%/10px no-repeat;
+  color: #fff;
+  width: 100%;
+  padding: 7px 0;
+}
+@media only screen and (max-width:736px){
+  .common-content{
+    margin: 40px auto 30px auto;
+  }
+  .common-content li{
+     width: 49%;
+     margin-bottom: 2%;
+     /* float: none; */
+  }
+  .common-content li:nth-child(2n){
+    margin-left: 2%;
+  }
+  .img-overlay-text{
+    font-size: 13px;
+  }
+}
+ /* 共通コンテンツ */
+
+
+ /* フッター */
+ .footer{
+   clear: both;
+   overflow: hidden;
+   text-align: center;
+   margin: 20px 0 15px 0;
+ }
+ .footer-logo{
+   width: 51px;
+ }
+ .footer ul{
+   border-bottom: 2px solid #008DD0;
+   padding-bottom: 15px;
+   margin: 20px 0 15px 0;
+ }
+ .footer li{
+   display: inline-block;
+ }
+ .footer li a{
+   font-size: 13px;
+   padding: 0 5px;
+   border-right: 1px solid #000;
+ }
+ .footer li:last-child a{
+   border-right: none;
+ }
+ .copyright{
+   color: #008DD0;
+   font-size: 11px;
+   font-family: Arial;
+ }
+ @media only screen and (max-width:736px){
+   .footer ul{
+     display: inline-block;
+     border-top: 1px solid #000;
+     border-bottom: 1px solid #000;
+     padding-bottom: 0;
+     margin-bottom: 10px;
+   }
+   .footer li{
+     width: 50%;
+     float: left;
+     border-right: 1px solid #000;
+     box-sizing: border-box;
+     padding: 10px 0;
+   }
+   .footer li:nth-child(1){
+     border-bottom: 1px solid #000;
+   }
+   .footer li:nth-child(2){
+     border-bottom: 1px solid #000;
+   }
+   .footer li:nth-child(2n){
+     border-right: none;
+   }
+   .footer li a{
+     font-size: 12px;
+     border-right: none;
+     padding: 0;
+     box-sizing: border-box;
+   }
+   .footer-logo{
+     width: 35px;
+   }
+ }
+ /* フッター */
+
+
+ /*////////////////////////// SUBPAGE //////////////////////////*/
+ .header-top{
+   clear: both;
+   overflow: hidden;
+   max-width: 980px;
+   margin: 30px auto;
+ }
+ .header-top .logo{
+   position: inherit;
+   float: left;
+ }
+ .header-top .reservbtn{
+   float: right;
+   margin: 0;
+ }
+ .subpage-nav{
+   background: #008DD0;
+   clear: both;
+   overflow: hidden;
+   text-align: center;
+ }
+ .subpage-nav li{
+   display: inline-block;
+   border-right: 1px solid rgba(255, 255, 255, 0.5);
+   margin: 10px 0;
+ }
+ .subpage-nav li:last-child{
+   border-right: none;
+ }
+ .subpage-nav li a{
+   font-weight: bold;
+   color: #fff;
+   font-size: 15px;
+   display: block;
+   padding: 40px 40px 5px 40px;
+   position: relative;
+ }
+ .subpage-nav li a.company{
+   background: #008DD0 url(../img/icon/company.png) 50% 0/28px no-repeat;
+ }
+ .subpage-nav li a.service{
+   background: #008DD0 url(../img/icon/service.png) 50% 0/22px no-repeat;
+ }
+ .subpage-nav li a.insurance{
+   background: #008DD0 url(../img/icon/insurance.png) 50% 0/29px no-repeat;
+ }
+ .subpage-nav li a.recruit{
+   background: #008DD0 url(../img/icon/heart.png) 50% 0/28px no-repeat;
+ }
+ .subpage-nav li a.voice{
+   background: #008DD0 url(../img/icon/microphone.png) 50% 0/17px no-repeat;
+ }
+ @media only screen and (max-width:736px){
+   .subpage-nav li{
+     display: inherit;
+     width: 100%;
+     text-align: left;
+     margin-left: 10px;
+   }
+   .subpage-nav li a{
+     background: #008DD0;
+     padding: 8px 40px 8px 45px;
+     margin: 20px 0;
+     box-sizing: border-box;
+   }
+   .subpage-nav li a{
+     background: #008DD0!important;
+   }
+   .subpage-nav li a::before{
+     content: " ";
+     width: 28px;
+     height: 28px;
+     padding: 10px;
+     border-radius: 50%;
+     position: absolute;
+     left: -10px;
+     top: -6px;
+     right: inherit;
+     margin: auto;
+     display: block;
+   }
+   .subpage-nav li a.company:before{
+     background: #008DD0 url(../img/icon/company.png) 50% 50%/28px no-repeat;
+   }
+   .subpage-nav li a.service:before{
+     background: #008DD0 url(../img/icon/service.png) 50% 50%/22px no-repeat;
+   }
+   .subpage-nav li a.insurance::before{
+     background: #008DD0 url(../img/icon/insurance.png) 50% 50%/29px no-repeat;
+   }
+   .subpage-nav li a.recruit:before{
+     background: #008DD0 url(../img/icon/heart.png) 50% 50%/28px no-repeat;
+   }
+   .subpage-nav li a.voice:before{
+     background: #008DD0 url(../img/icon/microphone.png) 50% 50%/17px no-repeat;
+   }
+   .header-top .reservbtn a{
+     box-shadow: none;
+     border-radius: 0;
+     margin-bottom: 0;
+     background: #DA1C5B url(../img/icon/earphone.png) 45px 50%/28px no-repeat;
+     padding: 15px 30px 15px 90px;
+   }
+   .header-top .reservbtn{
+     position: fixed;
+     bottom: 0;
+     padding: 0;
+     width: 100%;
+     z-index: 3;
+   }
+   .header-top{
+     background: rgba(0, 141, 208, 0.1);
+     margin: 0;
+     padding-top:0;
+   }
+ }
+
+ .insurance{
+   max-width: 980px;
+   margin: auto;
+ }
+ .subpage-title{
+   text-align: center;
+   color: #008DD0;
+   font-size: 25px;
+   margin: 30px 0;
+ }
+ .subpage-title span{
+   color: rgba(0, 141, 208, 0.6);
+ }
+ .subpage-title:after{
+   content: " ";
+   display: block;
+   width: 2px;
+   height: 31px;
+   background-color: rgba(0, 141, 208, 0.3);
+   margin: 5px auto 0;
+ }
+ .insurance-content{
+   padding: 0 40px;
+   position: relative;
+   clear: both;
+   overflow: hidden;
+ }
+ .insurance-content-box1{
+   width: 224px;
+   height: 195px;
+   background: rgba(0, 141, 208, 0.3);
+   position: relative;
+   margin-left: 40px;
+   margin-top: 40px;
+   float: left;
+ }
+ .insurance-content-box1::before{
+   top: -40px;
+   left: -40px;
+   position: absolute;
+   display: block;
+   content: "";
+   width: 144px;
+   height: 144px;
+   background: rgba(0, 141, 208, 0.2);
+ }
+ .insurance-content-box1::after{
+   bottom: -30px;
+   right: -30px;
+   position: absolute;
+   display: block;
+   content: "";
+   width: 79px;
+   height: 63px;
+   background: rgba(0, 141, 208, 0.1);
+ }
+ .insurance-content-box1 p{
+   position: relative;
+   z-index: 2;
+   margin-left: 95px;
+   top: 15px;
+   white-space: nowrap;
+   font-size: 25px;
+   font-weight: bold;
+   line-height: 1.6;
+ }
+
+ .insurance-content-box1 p .text1{
+   color: #fff;
+   filter:dropshadow(color=#008DD0,offX= 0,offY=-1)
+  dropshadow(color=#008DD0,offX= 1,offY= 0)
+  dropshadow(color=#008DD0,offX= 0,offY= 1)
+  dropshadow(color=#008DD0,offX=-1,offY= 0);
+
+  -webkit-text-stroke-color: #008DD0;
+  -webkit-text-stroke-width: 1px;
+
+  text-shadow: #008DD0 1px 1px 0px, #008DD0 -1px 1px 0px,
+               #008DD0 1px -1px 0px, #008DD0 -1px -1px 0px;
+ }
+ .insurance-content-box1 p .smalltext{
+   font-size: 20px;
+ }
+ .text2{
+   color: #D14A81;
+   margin-left: 110px!important;
+ }
+ .insurance1{
+   float: right;
+   width: 336px;
+   margin-bottom: 126px;
+   margin-left: 169px;
+   margin-right: 70px;
+   position: relative;
+
+ }
+ .insurance1::before{
+   position: absolute;
+   content: "";
+   width: 169px;
+   height: 126px;
+   background: url(../img/insurance2.png);
+   background-size: cover;
+   display: block;
+   bottom: -126px;
+   left: -169px;
+   position: absolute;
+ }
+ .insurance1::after{
+   position: absolute;
+   content: "";
+   width: 127px;
+   height: 98px;
+   background: rgba(0, 141, 208, 0.1);
+   display: block;
+   right: -100px;
+   bottom: -60px;
+   position: absolute;
+ }
+ @media only screen and (max-width:736px){
+   .insurance-content{
+     padding: 0 20px;
+   }
+   .insurance-content-box1{
+     margin-left: 0;
+   }
+   .insurance-content-box1::before{
+    top: -24px;
+    width: 80px;
+    height: 65px;
+   }
+   .insurance-content-box1 p{
+     margin-left: 0;
+     font-size: 20px;
+   }
+   .text2{
+     margin-left: 15px!important;
+   }
+   .insurance1{
+     top: -55px;
+     width: 200px;
+     margin-left: 0;
+     margin-right: 0;
+     margin-bottom: -55px;
+   }
+   .insurance1::before{
+     width: 133px;
+     height: 93px;
+     bottom: -93px;
+     left: -133px;
+     display: none;
+   }
+   .insurance1::after{
+     display: none;
+   }
+ }
+
+ .diagram{
+   background: url(../img/bg2.png);
+   background-size: cover;
+   clear: both;
+   overflow: hidden;
+   text-align: center;
+   padding: 30px 0;
+   margin-top: 40px;
+ }
+ .diagram ul{
+   display: inline-block;
+ }
+ .diagram li{
+   line-height: 115px;
+   font-size: 16px;
+   font-weight: bold;
+   color: #fff;
+   width: 121px;
+   height: 121px;
+   border-radius: 50%;
+   float: left;
+   margin: 0 30px;
+ }
+ .diagram li:nth-child(1){
+   background: #313269;
+   position: relative;
+ }
+ .diagram li:nth-child(2){
+   background: #008DD0;
+   position: relative;
+ }
+ .diagram li:nth-child(3){
+   background: #4D61A0;
+   position: relative;
+ }
+ .diagram li:nth-child(1):before,
+ .diagram li:nth-child(2):before,
+ .diagram li:nth-child(3)::before{
+   position: absolute;
+   top: 4px;
+   left: 4px;
+   content: " ";
+   width: 111px;
+   height: 111px;
+   border-radius: 50%;
+   display: block;
+   border: 1px dashed #93BDCE;
+ }
+ .diagram li:nth-child(1):after{
+   z-index: -1;
+   content: "";
+   width: 100%;
+   height: 3px;
+   background: #93BDCE;
+   display: inline-block;
+   position: absolute;
+   top: 45%;
+ }
+ .diagram li:nth-child(2):after{
+   z-index: -1;
+   content: "";
+   width: 100%;
+   height: 3px;
+   background: #93BDCE;
+   display: inline-block;
+   position: absolute;
+   top: 45%;
+ }
+ @media only screen and (max-width:736px){
+   .diagram li{
+     width: 100px;
+     height: 100px;
+     margin: 0 10px;
+     line-height: 100px;
+     font-size: 14px;
+   }
+   .diagram li:nth-child(1):before,
+   .diagram li:nth-child(2):before,
+   .diagram li:nth-child(3)::before{
+     width: 90px;
+     height: 90px;
+   }
+ }
+ .insurance-list{
+   background: rgba(216, 232, 245);
+   padding: 30px 0;
+ }
+ .insurance-list-wrap{
+   max-width: 670px;
+   margin: auto;
+ }
+ .insurance-list-title{
+   margin-top: 20px;
+   color: #008DD0;
+   font-size: 20px;
+   text-align: center;
+   font-style: italic;
+   line-height: 1.5;
+   position: relative;
+   border-top: 1px solid #008DD0;
+   border-bottom: 1px solid #008DD0;
+   padding: 15px 0;
+   position: relative;
+  box-sizing: border-box;
+ }
+ .insurance-list-title::before{
+   content: "";
+    position: absolute;
+    bottom: -24px;
+    left: 50%;
+    margin-left: -15px;
+    border: 12px solid transparent;
+    border-top: 12px solid rgba(216, 232, 245);
+    z-index: 2;
+ }
+
+ .insurance-list-title:after{
+   content: "";
+   position: absolute;
+   bottom: -28px;
+   left: 50%;
+   margin-left: -17px;
+   border: 14px solid transparent;
+   border-top: 14px solid #008DD0;
+   z-index: 1;
+ }
+ .insurance-list-content{
+   clear: both;
+   overflow: hidden;
+   text-align: center;
+ }
+ .insurance-list-content ul{
+   display: inline-block;
+   margin-top: 40px;
+ }
+ .insurance-list-content li{
+   float: left;
+   width: 207px;
+   margin-bottom: 24px;
+ }
+ .insurance-list-content li:nth-child(3n-1){
+   margin: 0 24px;
+ }
+ .common-content.subpage{
+   max-width: 980px;
+   margin: 50px auto 50px auto;
+ }
+ .common-content.subpage li{
+   width: 225px;
+ }
+ .common-content.subpage li{
+   margin: 0 26px 0 0;
+ }
+ .common-content.subpage li:last-child{
+   margin-right: 0;
+ }
+ @media only screen and (max-width:736px){
+   .insurance-list-content{
+     padding: 0 20px;
+     box-sizing: border-box;
+   }
+   .insurance-list-title{
+     font-size: 18px;
+   }
+   .insurance-list-content li{
+     width: 162px;
+     margin: 0 0 10px 0;
+   }
+   .insurance-list-content li:nth-child(3n-1){
+     margin: 0 0 10px 0;
+   }
+   .insurance-list-content li:nth-child(2n){
+     margin-left: 10px;
+   }
+   .common-content.subpage{
+     margin: 40px auto 30px auto;
+   }
+   .common-content.subpage li{
+      width: 49%;
+      margin-bottom: 2%;
+      margin-right: 0;
+      /* float: none; */
+   }
+   .common-content.subpage li:nth-child(2n){
+     margin-left: 2%;
+   }
+   .footer.subpage{
+     margin-bottom: 65px;
+   }
+ }
+
+
+ /* 事業内容 */
+ .service-wrap{
+   max-width: 1024px;
+   margin: 80px auto;
+ }
+ .service-diagram{
+   margin: auto;
+   background-size: cover;
+   clear: both;
+   overflow: hidden;
+   text-align: center;
+   position: relative;
+ }
+ /* .service-diagram-name{
+   display: inline-block;
+ } */
+ .service-diagram-name div{
+   display: inline-block;
+   vertical-align: middle;
+ }
+ .circle1,
+ .circle2,
+ .circle3{
+   line-height: 160px;
+   font-size: 16px;
+   font-weight: bold;
+   color: #fff;
+   width: 160px;
+   height: 160px;
+   border-radius: 50%;
+   margin: 0 50px;
+   opacity: 0;
+ }
+ .triangle1{
+   margin: 0 10px!important;
+   border-top: 50px solid transparent;
+   border-bottom: 50px solid transparent;
+   border-left: 50px solid #6aa7cd;
+   opacity: 0;
+
+ }
+ .triangle2{
+   margin: 0 10px!important;
+   border-top: 50px solid transparent;
+   border-bottom: 50px solid transparent;
+   border-left: 50px solid #6aa7cd;
+   position: relative;
+   margin-left: 30px;
+   opacity: 0;
+ }
+ .triangle3{
+   margin: 0 10px!important;
+   border-top: 50px solid transparent;
+  border-right: 50px solid #f6da69;
+  border-bottom: 50px solid transparent;
+  position: relative;
+  opacity: 0;
+ }
+ .triangle3 p{
+   font-weight: bold;
+   margin-left: 10px;
+   white-space: nowrap;
+   position: absolute;
+   margin-top: -10px;
+ }
+
+ .triangle2 p{
+   line-height: 1.5;
+   font-weight: bold;
+   width: 170px;
+   position: absolute;
+   left: -110px;
+   margin-top: -30px;
+   display: block;
+ }
+
+ .service-diagram-name .circle1{
+   background: #313269;
+   position: relative;
+ }
+ .service-diagram-name .circle2{
+   background: #008DD0;
+   position: relative;
+ }
+ .service-diagram-name .circle3{
+   background: #4D61A0;
+   position: relative;
+ }
+ .service-diagram-name .circle1:before,
+ .service-diagram-name .circle2:before,
+ .service-diagram-name .circle3::before{
+   position: absolute;
+   top: 4px;
+   left: 4px;
+   content: " ";
+   width: 150px;
+   height: 150px;
+   border-radius: 50%;
+   display: block;
+   border: 1px dashed #93BDCE;
+ }
+ .service-diagram-name{
+   position: relative;
+ }
+ .service-diagram-border{
+   top: 0;
+   max-width: 755px;
+   margin: auto;
+   position: relative;
+ }
+
+ .line1{
+ 	width:2px;
+ 	height:0;
+ 	background:#000;
+  float: left;
+ 	bottom:0;
+  position: absolute;
+ }
+
+ .line2{
+ 	width:0;
+ 	height:2px;
+ 	background:#000;
+ 	bottom: 28px;
+  position: absolute;
+  text-align: center;
+ }
+
+.line2 p{
+  opacity: 0;
+  margin-top: -28px;
+  margin-bottom: 5px;
+}
+
+
+.line3{
+ 	width:2px;
+ 	height:0;
+ 	background:#000;
+ 	position:absolute;
+ 	top: -28px;
+ 	right:0;
+ }
+ .line4{
+ 	width:2px;
+ 	height:0;
+ 	background:#000;
+  float: left;
+  left: 55%;
+ 	bottom: -26px;
+  position: absolute;
+ }
+
+ .line5{
+ 	width:0;
+  right: 0;
+ 	height:2px;
+ 	background:#000;
+ 	bottom: -26px;
+  position: absolute;
+ }
+ .line5 p{
+   opacity: 0;
+   text-align: center;
+   margin-top: 5px;
+ }
+
+.line6{
+ 	width:2px;
+ 	height:0;
+ 	background:#000;
+ 	position:absolute;
+ 	top: -4px;
+ 	right:0;
+ }
+.service-intr{
+  max-width: 980px;
+  margin: 30px auto 0;
+}
+.service-intr p{
+  padding: 0 50px;
+  box-sizing: border-box;
+  font-size: 14px;
+}
+ /* 事業内容 */
+ /*////////////////////////// SUBPAGE //////////////////////////*/
+
+
+/* フォーム */
+.entryform{
+  max-width: 1024px;
+  margin: auto;
+}
+.entryform h2{
+  text-align: center;
+}
+.entryform table{
+  width: 100%;
+  text-align: left;
+}
+.entryform table th,
+.entryform table td{
+  padding: 5px;
+  vertical-align: top;
+}
+
+.privacy-box{
+  padding: 5px;
+  border: 1px solid #ddd;
+  width: 500px;
+  height: 200px;
+  overflow-y: scroll;
+}
+.submitbtn{
+  text-align: center;
+}
+.entryform table input[type="submit"]
+/* フォーム */
+
+
+
+@media only screen and (max-width:736px){
+.subtitle{
+  font-size: 20px;
+  padding: 10px;
+}
+}
+
+
+@media only screen and (max-width: 1025px) and (min-width: 736px){
+  .sp{
+    display: none;
+  }
+  .spnavbtn{
+    display: none;
+  }
+  .menu{
+     display: none;
+  }
+}
+
+
+@media (min-width: 1025px){
+  .sp{
+    display: none;
+  }
+  .spnavbtn{
+    display: none;
+  }
+  .menu{
+     display: none;
+
+}
